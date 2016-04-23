@@ -46,6 +46,7 @@ section {
 	position:relative;
 	border-radius:4px;
 	overflow:hidden;
+  border: 2px solid blue;
 	}
 #image {
 	height:100px;
