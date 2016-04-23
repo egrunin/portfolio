@@ -18,6 +18,51 @@ nav {
   width: 100%;
 }
 
+#banner {
+  height: 105px;
+  width: 320px;
+  margin: 20px auto;
+  position: relative;
+}
+
+#img {
+  height:105px;
+  width: 320px;
+  position: absolute;
+}
+
+#left_button {
+  height:105px;
+  width: 50px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#right_button {
+  height:105px;
+  width: 50px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.left {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 40%;
+  left: 0px; 
+}
+
+.right {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 40%;
+  right: 0px; 
+}
+
 /*MAIN*/
 main {
   margin-top: 50px;
