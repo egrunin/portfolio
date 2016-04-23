@@ -4,7 +4,7 @@
 /* ===== CSS for EG Sites portfolio styles ===== */
 
 body {
-	margin: 100px;
+	margin: 50px;
 	background-color: #777;
 	font: normal 17px "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
@@ -21,7 +21,7 @@ nav {
 /*MAIN*/
 main {
   margin-top: 50px;
-  max-width: 1280px;
+  max-width: 960px;
   min-height: 700px;
   padding: 20px;
   border: 2px solid black;
@@ -31,7 +31,7 @@ h2 {
   margin-top: -150px;
 }
 section {
-  margin-top: 25%;
+  margin-top: 50px;
 }
 /*FOOTER*/
 footer {
