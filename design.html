@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!----- .... ----->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!----- CSS bootsrap/fontawesome/app.css Section ----->
+    <link rel="stylesheet" href="Content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Content/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="Content/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Content/app.css">
+    <title>EG's Design</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!----- toggle and brand grouped for optimized mobile display ----->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img width="79" height="51" alt="logo" src="images/logo.png"></a>
+            </div>
+            <!----- global nav ----->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!----- nav collapse into hamburger ----->
+        </div>
+        <!----- container-fluid ----->
+    </nav>
+    <!----- main page content ----->
+    <main class="container" id="mainContent">
+        <h1>Patent Ping</h1>
+        <div id="patent">
+            <div class="wrapper">
+                <!----- PDF from opens in new browser window ----->
+                <object data="patentping.pdf" type="pdf" width="100%" height="100%">
+                    <p>It appears you don't have a PDF plugin for this browser.
+                    No biggie... you can <a href="patentping.pdf">click here to
+                    download the PDF file.</a></p>
+                </object>
+            </div>
+        </div>
+    </main>
+    <!----- Jquery/bootstrap/app.js Section ----->
+    <script src="Scripts/lib/jquery-2.2.0.min.js"></script>
+    <script src="Scripts/lib/bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>
+</body>
+</html>

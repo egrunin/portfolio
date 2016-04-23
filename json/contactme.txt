@@ -1,0 +1,6 @@
+{
+  "paragraphs":[    
+    "Phone: 1-(416)-797-8527",
+    "Email: jack.grunin@gmail.com"
+  ]
+}

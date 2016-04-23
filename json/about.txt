@@ -1,0 +1,5 @@
+{
+  "paragraphs":[
+    "Jack has 11 years of experience as a Canadian Forces infantry soldier, ending his service in 2013. 31 years young and a bachelor, currently a fulltime Web Development and Design college student residing in Barrie Ontario Canada. This career path will surely keep him chained to the desk, but the outdoors balance work and pleasure. Jack is a survival enthusiast and guide, offering his expertise and time to the chosen few. EG Sites is a personal portfolio site intended to gather interest and survey prospected clientele."
+  ]
+}
