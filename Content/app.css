@@ -1,7 +1,7 @@
 /* ===== EG Sites ===== */
 /* ===== Jack Evgeni Grunin 200310426 ===== */
 /* ===== miniport/Content/app.css ===== */
-/* ===== CSS for EG Sites portfolio styles ===== */
+/* ===== CSS for EG Sites portfolio  ===== */
 
 body {
 	margin: 50px;
@@ -36,9 +36,8 @@ h1 {
 section {
   margin-top: 50px;
 }
-*{
-	margin:0px;
-	}
+
+/*SLIDER*/
 #slider {
 	height:100px;
 	width:320px;
@@ -91,28 +90,6 @@ section {
 .right_hold:hover .right {
 	opacity:0.6;
 }
-
-/*SLIDER*/
-/*#slider {
-  width: 350px;
-  height: 120px;
-  overflow: hidden;
-}
-
-#slider .slides {
-  display: block;
-  width: 2000px;
-  height: 120px;
-  margin: 0;
-  padding: 0;
-}
-
-#slider .slide {
-  float: left;
-  list-style-type: none;
-  width: 350px;
-  height: 120px;
-}*/
 
 /*FOOTER*/
 footer {
