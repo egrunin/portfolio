@@ -37,8 +37,27 @@ section {
   margin-top: 50px;
 }
 
-/*BANNER*/
+/*SLIDER*/
+#slider {
+  width: 350px;
+  height: 120px;
+  overflow: hidden;
+}
 
+#slider .slides {
+  display: block;
+  width: 1280px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 350px;
+  height: 120px;
+}
 
 /*FOOTER*/
 footer {
