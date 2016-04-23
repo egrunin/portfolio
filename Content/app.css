@@ -40,28 +40,28 @@ section {
 	margin:0px;
 	}
 #slider {
-	height:400px;
-	width:650px;
+	height:100px;
+	width:320px;
 	margin: 50px auto;
 	position:relative;
 	border-radius:4px;
 	overflow:hidden;
 	}
 #image {
-	height:400px;
-	width:650px;
+	height:100px;
+	width:320px;
 	position:absolute;
 	}
 .left_hold {
-	height: 400px;
-	width: 100px;
+	height: 100px;
+	width: 75px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
 }
 .right_hold {
-	height: 400px;
-	width: 100px;
+	height: 100px;
+	width: 75px;
 	position: absolute;
 	top: 0px;
 	right: 0px;
