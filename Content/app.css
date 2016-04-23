@@ -55,7 +55,7 @@ section {
 #slider .slide {
   float: left;
   list-style-type: none;
-  width: 350px;
+  width: max-content;
   height: 120px;
 }
 
