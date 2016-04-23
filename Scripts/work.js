@@ -14,18 +14,18 @@ $(function() {
     
     // cash DOM 
     var $slider = $('#slider');
-    var $sliderContainer = $slider.find('.slides');
-    var $slides = $sliderContainer.find('.slide');
+    var $slideContainer = $slider.find('.slides');
+    var $slides = $slideContainer.find('.slide');
     
     var interval;
     
     function startSlider() {
         interval = setInterval(function() {
-            $sliderContainer.animate({'margin-left': '-=' + width}, animationSpeed, function() {
+            $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
             currentSlide++;
             if (currentSlide === $slide.length) {
                 currentSlide = 1;
-                $sliderContainer.css('margin-left', 0); 
+                $slideContainer.css('margin-left', 0); 
             } 
             });
         }, pause);
