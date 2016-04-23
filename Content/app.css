@@ -39,7 +39,7 @@ section {
 
 /*BANNER*/
 #banner {
-  margin-top: 50px;
+  margin-top: 200px;
   margin-bottom: 50px;
   height: 105px;
   width: 320px;
@@ -51,7 +51,7 @@ section {
 #img {
   height:105px;
   width: 320px;
-  position: absolute;
+  position: center;
 }
 
 #left_button {
