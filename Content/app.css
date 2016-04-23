@@ -38,53 +38,7 @@ section {
 }
 
 /*BANNER*/
-#banner {
-  margin-top: 200px;
-  margin-bottom: 50px;
-  height: 105px;
-  width: 320px;
-  margin: 20px auto;
-  border: 2px solid black;
-  position: relative;
-}
 
-#img {
-  height:105px;
-  width: 320px;
-  position: center;
-}
-
-#left_button {
-  height:105px;
-  width: 50px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-
-#right_button {
-  height:105px;
-  width: 50px;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-}
-
-.left {
-  height: 32px;
-  width: 32px;
-  position: absolute;
-  top: 40%;
-  left: 0px; 
-}
-
-.right {
-  height: 32px;
-  width: 32px;
-  position: absolute;
-  top: 40%;
-  right: 0px; 
-}
 
 /*FOOTER*/
 footer {
