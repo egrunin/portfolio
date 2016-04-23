@@ -1,7 +1,7 @@
 // EG Sites
 // Jack Evgeni Grunin 200310426
 // miniport/Scripts/app.js
-// javascript for EG Sites text content
+// javascript for work/contact page
 
 "use strict";
 
@@ -71,18 +71,18 @@
 
 
 
-    // mouseover/mouseout functions for Product page
-    document.getElementById("product").addEventListener("mouseover", mouseOverprod);
-    document.getElementById("product").addEventListener("mouseout", mouseOutprod);
+    // mouseover/mouseout functions for CMS page
+    document.getElementById("perscms").addEventListener("mouseover", mouseOverprod);
+    document.getElementById("perscms").addEventListener("mouseout", mouseOutprod);
 
     var prodInfo = "My first EVER server side script!";
 
     function mouseOverprod() {
-        document.getElementById("product").innerHTML = prodInfo;
-        document.getElementById("product").style.color = "violet";
+        document.getElementById("perscms").innerHTML = prodInfo;
+        document.getElementById("perscms").style.color = "violet";
     };
     function mouseOutprod() {
-        document.getElementById("product").style.color = "red";
+        document.getElementById("perscms").style.color = "red";
     };
 
 })();
