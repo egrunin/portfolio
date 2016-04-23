@@ -19,9 +19,12 @@ nav {
 }
 
 #banner {
+  margin-top: 50px;
+  margin-bottom: 50px;
   height: 105px;
   width: 320px;
   margin: 20px auto;
+  border: 2px solid black;
   position: relative;
 }
 
